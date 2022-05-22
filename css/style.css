@@ -69,7 +69,9 @@ p {
 .content3,
 .content4,
 .content6,
-.content7 {
+.content7,
+.content8,
+.content9 {
   grid-column: 3/4;
   margin-top: 25px;
 }
@@ -92,7 +94,8 @@ div .h4-bottom {
   color: gray;
   width: 100%;
 }
-.content1 img {
+.content1 img,
+.content9 img {
   border-radius: 25px;
   background-color: #eeeeee;
   height: 30px;
@@ -109,7 +112,8 @@ div .h4-bottom {
 .content3 p,
 .content4 p,
 .content6 p,
-.content7 p {
+.content7 p,
+.content8 p {
   margin-bottom: 15px;
 }
 .content3 a {
@@ -217,7 +221,35 @@ div .h4-bottom {
 .content7 img {
   width: 100%;
 }
-.content7 .img-details {
+.content7-imgDetails {
+  color: #808080;
+}
+.content7-title,
+.content8-title {
+  margin-bottom: 20px;
+}
+.content9-small {
+  font-size: small;
+  font-weight: bolder;
   color: gray;
-  font-size: 15px;
+}
+.content9 a {
+  color: #326891;
+  text-decoration: none;
+}
+.content9 a:hover {
+  text-decoration: underline;
+}
+.content9 button {
+  border-radius: 5px;
+  padding: 10px 50px;
+  background-color: #1069ad;
+  text-transform: uppercase;
+  color: white;
+  font-weight: bold;
+}
+.content9-flex-container {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
 }

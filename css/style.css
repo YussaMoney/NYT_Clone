@@ -251,5 +251,19 @@ div .h4-bottom {
 .content9-flex-container {
   display: flex;
   justify-content: space-between;
-  margin-top: 20px;
+  margin-top: 30px;
+  margin-bottom: 75px;
+}
+.content10 {
+  grid-column: 1/4;
+}
+.content10 .horizontal {
+  border: 0.1px solid black;
+  margin-bottom: 15px;
+}
+.content10-title {
+  margin-bottom: 10px;
+}
+.content10-title:hover {
+  text-decoration: underline;
 }

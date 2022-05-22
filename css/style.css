@@ -64,7 +64,8 @@ main {
 .content1,
 .content2,
 .content3,
-.content4 {
+.content4,
+.content6 {
   grid-column: 3/4;
   margin-top: 25px;
 }
@@ -93,7 +94,6 @@ div .h4-bottom {
   background-color: #eeeeee;
   height: 30px;
   padding: 5px;
-  /* margin: 30px; */
 }
 .content1 {
   display: flex;
@@ -104,7 +104,8 @@ div .h4-bottom {
 }
 .content2 p,
 .content3 p,
-.content4 p {
+.content4 p,
+.content6 p {
   margin-bottom: 15px;
 }
 .content3 a {
@@ -193,4 +194,9 @@ div .h4-bottom {
 .item8 {
   top: 412vh;
   left: 69vw;
+}
+.inflation-horizontal {
+  border: 0.1px solid #808080;
+  margin: -5px 0 25px 0;
+  width: 12%;
 }

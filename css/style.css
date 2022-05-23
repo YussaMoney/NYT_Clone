@@ -262,6 +262,7 @@ div .h4-bottom {
 .horizontal {
   border: 0.1px solid black;
   margin-bottom: 15px;
+  width: 845px;
 }
 .content10-title {
   margin-bottom: 10px;
@@ -270,7 +271,7 @@ div .h4-bottom {
   text-decoration: underline;
 }
 .content10 img {
-  height: 210px;
+  height: 200px;
   width: 270px;
 }
 .content10-flex-container {
@@ -285,6 +286,7 @@ div .h4-bottom {
   color: gray;
   text-align: right;
   font-size: xx-small;
+  width: 270px;
 }
 
 .content-paragraph {

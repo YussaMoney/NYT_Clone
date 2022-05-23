@@ -217,6 +217,7 @@ div .h4-bottom {
 }
 .iframe-details {
   color: #808080;
+  margin-bottom: 15px;
 }
 .content7 img {
   width: 100%;
@@ -266,4 +267,30 @@ div .h4-bottom {
 }
 .content10-title:hover {
   text-decoration: underline;
+}
+.content10 img {
+  height: 150px;
+  width: 305px;
+}
+.content10-flex-container {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  margin-bottom: 20px;
+}
+.img-container {
+  margin-bottom: 10px;
+  width: 305px;
+}
+.content10-img-small {
+  color: gray;
+  text-align: right;
+  font-size: xx-small;
+}
+
+.content-paragraph {
+  line-height: 28px;
+}
+.img-date {
+  color: #808080;
 }

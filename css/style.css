@@ -336,7 +336,37 @@ div .h4-bottom {
   float: right;
   margin-top: 18px;
 }
-/* footer .paragraph1 {
+.footer-mid {
   display: grid;
+  grid-template-columns: repeat(11, auto);
+}
+.footer-column1 {
+  grid-column: 1/2;
+}
+.footer li {
+  list-style: none;
+  margin-top: 10px;
+}
+.footer a {
+  text-decoration: none;
+  color: black;
+}
+.footer-column2 {
   grid-column: 3/4;
-} */
+}
+.footer-column3 {
+  grid-column: 5/6;
+}
+.footer-column4 {
+  grid-column: 7/8;
+}
+.footer-column5 {
+  grid-column: 9/10;
+}
+.footer-column6 {
+  grid-column: 11/12;
+}
+.sub-horizontal {
+  border: 0.1px solid lightgray;
+  margin-top: 10px;
+}

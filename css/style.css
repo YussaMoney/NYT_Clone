@@ -114,7 +114,7 @@ div .h4-bottom {
 .content6 p,
 .content7 p,
 .content8 p {
-  margin-bottom: 15px;
+  margin-top: 15px;
 }
 .content3 a {
   text-decoration: none;
@@ -129,6 +129,8 @@ div .h4-bottom {
 }
 .content-rightSide hr {
   border: 0.5px solid lightgray;
+  border-top-width: 0;
+
   margin: 8px 0 15px 0;
 }
 .flex-container img {
@@ -211,6 +213,12 @@ div .h4-bottom {
   margin: -5px 0 35px 0;
   width: 12%;
 }
+.content6 a {
+  text-decoration: none;
+}
+.content6 a:hover {
+  text-decoration: underline;
+}
 .content-iframe {
   width: 100%;
   height: 350px;
@@ -224,6 +232,7 @@ div .h4-bottom {
 }
 .content7-imgDetails {
   color: #808080;
+  margin-bottom: 10px;
 }
 .content7-title,
 .content8-title {
@@ -261,6 +270,8 @@ div .h4-bottom {
 }
 .horizontal {
   border: 0.1px solid black;
+  border-top-width: 0;
+
   margin-bottom: 15px;
   width: 855px;
 }
@@ -302,29 +313,36 @@ div .h4-bottom {
 }
 .right-horizontal {
   border: 0.1px solid black;
+  border-top-width: 0;
+
   margin-bottom: 15px;
   width: 310px;
 }
 .p-horizontal {
   border: 0.1px solid lightgray;
+  border-top-width: 0;
+
   margin: 20px 0;
 }
 .right-side p:hover {
   color: #808080;
-}
-.footer {
-  padding: 0 70px;
 }
 .footer img {
   height: 40px;
   width: 200px;
   margin-top: 8px;
 }
-.footer-hr {
-  border: 1px solid lightgray;
+.footer-head,
+.footer-mid {
+  padding: 0px 70px;
 }
-.footer-hr2 {
+.footer-head-hr {
   border: 1px solid lightgray;
+  border-top-width: 2px;
+}
+.footer-head-hr2 {
+  border: 1px solid lightgray;
+  border-top-width: 0;
   margin-top: 2px;
 }
 .footer-home-link {
@@ -348,8 +366,11 @@ div .h4-bottom {
   margin-top: 10px;
 }
 .footer a {
-  text-decoration: none;
   color: black;
+  text-decoration: none;
+}
+.footer a:hover {
+  text-decoration: underline;
 }
 .footer-column2 {
   grid-column: 3/4;
@@ -368,5 +389,27 @@ div .h4-bottom {
 }
 .sub-horizontal {
   border: 0.1px solid lightgray;
+  border-top-width: 0;
   margin-top: 10px;
+}
+.footer-link a {
+  color: #1069ad;
+}
+.footer-link-hr {
+  border: 1px solid lightgray;
+  border-top-width: 0;
+  margin: 15px 70px 10px;
+}
+.footer-link ul {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+}
+.footer-link li {
+  margin-left: 15px;
+  font-size: small;
+}
+.footer-foot-hr {
+  border: 1px solid black;
+  margin: 25px 0px;
 }

@@ -25,12 +25,17 @@ To get a local copy up and running follow these simple example steps.
 
 web Browser(Chrome)
 
+## Live Demo
+
+[Click here](https://yussamoney.github.io/NYT_Clone/)
+
 ## Author
 
 👤 **Azeez Yusuf O.**
 
 - Github: [@YussaMoney](https://github.com/YussaMoney)
 - Twitter: [@YussaMoney](https://twitter.com/YussaMoney)
+- Linkedin: [@YussaMoney](linkedin.com/in/yussamoney)
 
 ## 🤝 Contributing
 

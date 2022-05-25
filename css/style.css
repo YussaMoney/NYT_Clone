@@ -59,6 +59,7 @@ p {
 .contents h1 {
   grid-column: 3/4;
   font-style: italic;
+  margin-bottom: 15px;
 }
 .content-image,
 .content5 {
@@ -144,7 +145,6 @@ div .h4-bottom {
 .flex-container .flex-details {
   padding-left: 10px;
   text-align: left;
-  font-size: small;
 }
 .content4 h4 {
   font-size: x-large;
@@ -222,6 +222,9 @@ div .h4-bottom {
 .content-iframe {
   width: 100%;
   height: 350px;
+  margin: 15px 0 5px;
+  border-top: 2px solid gray;
+  border-left: 2px solid gray;
 }
 .iframe-details {
   color: #808080;
@@ -229,6 +232,7 @@ div .h4-bottom {
 }
 .content7 img {
   width: 100%;
+  margin: 15px 0 5px;
 }
 .content7-imgDetails {
   color: #808080;
@@ -250,7 +254,7 @@ div .h4-bottom {
 .content9 a:hover {
   text-decoration: underline;
 }
-.content9 button {
+.content9-flex-container button {
   border-radius: 5px;
   padding: 10px 50px;
   background-color: #1069ad;
@@ -305,6 +309,7 @@ div .h4-bottom {
 }
 .img-date {
   color: #808080;
+  font-size: 15px;
 }
 .right-side {
   grid-column: 4/6;
@@ -346,7 +351,7 @@ div .h4-bottom {
   margin-top: 2px;
 }
 .footer-home-link {
-  color: #567b95;
+  color: #2f5875;
   text-decoration: none;
   font-size: 12px;
   font-family: Arial, Helvetica, sans-serif Georgia, "Times New Roman", Times,
@@ -416,9 +421,17 @@ div .h4-bottom {
 }
 .footer-foot {
   text-align: center;
-  line-height: 1px;
+  margin-bottom: 25px;
 }
 .foot-float {
   float: right;
-  margin: 0 70px 0 0;
+  margin: -29px 70px 0 0;
+}
+.footer-column6 img {
+  height: 16px;
+  width: 16px;
+}
+.foot-float img {
+  width: 18px;
+  height: 16px;
 }

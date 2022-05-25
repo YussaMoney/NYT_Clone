@@ -1,0 +1,23 @@
+{
+  "name": "nyt-clone",
+  "version": "1.0.0",
+  "description": "This is a simple HTML with little styling(CSS) of a cloned site ['New York Times'](https://teekaytech.github.io/NYT-Clone/). It's being write in the format of HTML5 with **grid and flex layout**.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/YussaMoney/NYT_Clone.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/YussaMoney/NYT_Clone/issues"
+  },
+  "homepage": "https://github.com/YussaMoney/NYT_Clone#readme",
+  "devDependencies": {
+    "hint": "^6.2.0"
+  }
+}
